@@ -29,8 +29,8 @@ function App() {
       </div>
       
       <section className='App-section'>
-        
-        <div className='div-description'>
+        {/* English */}
+        {/* <div className='div-description'>
         <h2>Luxury Apartment in Niarela, Bamako, ML</h2>
         <br/>
         <p>
@@ -46,15 +46,44 @@ function App() {
           <Button>View Floorplans</Button>
           <Button className='div-button'>View Amenities</Button>
         </div>
+        </div> */}
+        {/* French */}
+        <div className='div-description'>
+        <h2>Appartements de luxe à Niarela, Bamako, ML</h2>
+        <br/>
+        <p>
+        Le complexe d'appartements de luxe à Niarela (près de la Cité du Niger) est l'incarnation de la vie opulente. Niché dans un emplacement privilégié, à seulement 5 minutes du centre-ville animé, ce complexe offre aux résidents le mélange parfait de commodité urbaine et de luxe serein. Bénéficiant de 3 grands appartements entièrement meublés, chacun avec 3 chambres somptueuses, tous dotés de systèmes de climatisation à la pointe de la technologie, ce complexe offre sérénité, propreté, confort et classe.
+        </p>
+        <p>
+        Les terrains du complexe sont tout simplement magnifiques, avec un jardin méticuleusement entretenu et une piscine étincelante, idéale pour se détendre et profiter du soleil du Mali. Chaque appartement est équipé des dernières technologies, dont la télévision par satellite et l'internet haut débit par fibre, ainsi qu'une cuisine à l'américaine, idéale pour organiser des dîners. Le complexe propose également un service de conciergerie, une navette, des machines à laver et à sécher, des caméras de vidéosurveillance et un parking, garantissant que tous vos besoins sont satisfaits avec la plus grande efficacité et discrétion.
+        </p>
+        <p>
+        Entrez dans le royaume de l'indulgence et découvrez le summum de la vie de luxe au complexe d'appartements Hereso.
+        </p>
+        <div>
+          <Button>Voir les plans d'étage</Button>
+          <Button className='div-button'>Voir les commodités</Button>
+        </div>
         </div>
         </section>
         <GridLayout/>
-        <section className='App-section'>
+        {/* English */}
+        {/* <section className='App-section'>
           <div className='div-description'>
           <h2>Your dream residence is within reach</h2>
           <div>
           <Button>Book a Tour</Button>
           <a href="/applynow"><Button className='div-button'>Apply Now</Button></a>
+          </div>
+          </div>
+        </section> */}
+        {/* French */}
+        <section className='App-section'>
+          <div className='div-description'>
+          <h2>Votre résidence de rêve est à portée de main</h2>
+          <div>
+          <Button>Réserver une visite</Button>
+          <a href="/applynow"><Button className='div-button'>Appliquer maintenant</Button></a>
           </div>
           </div>
         </section>
