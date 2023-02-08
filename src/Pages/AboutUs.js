@@ -3,10 +3,15 @@ import '../App.css';
 import GridLayout from '../Components/GridLayout';
 
 import { Button } from 'react-bootstrap';
+import ApplyNowSection from '../Components/ApplyNowSection';
 
 function AboutUs() {
     return (
       <div className="App">
+        {/* English */}
+        {/* <div>
+          <br/>
+          <br/>
         <section className="App-section">
           <div className='div-description'>
           <h1>
@@ -32,6 +37,25 @@ function AboutUs() {
           </div>
           </div>
         </section>
+        </div> */}
+        {/* French */}
+        <div>
+          <br/>
+          <br/>
+        <section className="App-section">
+          <div className='div-description'>
+          <h1>
+          À propos de nous
+          </h1>
+          <br/>
+          <p>Bienvenue au complexe d'appartements Niarela, la quintessence de la vie opulente à Niarela, Bamako, Mali. Notre emplacement privilégié, à seulement 5 minutes du centre-ville animé, offre aux résidents le mélange parfait de commodité urbaine et de luxe serein.</p>
+          <p>Notre complexe comprend 3 grands appartements entièrement meublés, chacun avec 3 chambres somptueuses et des systèmes de climatisation à la pointe de la technologie pour un confort et une classe ultimes. Le terrain du complexe dispose d'un jardin méticuleusement entretenu et d'une piscine étincelante, parfaits pour se détendre et profiter du soleil du Mali.</p>
+          <p>Chaque appartement est équipé des dernières technologies, dont la télévision par satellite et l'internet haut débit par fibre, ainsi qu'une cuisine à l'américaine, idéale pour organiser des dîners. Afin de répondre à tous vos besoins avec la plus grande efficacité et discrétion, nous vous proposons un service de conciergerie, navette et parking.</p>
+          <p>Entrez dans le royaume de l'indulgence et découvrez le summum de la vie de luxe au complexe d'appartements Hereso. Contactez-nous dès aujourd'hui pour planifier une visite et découvrir le style de vie de luxe qui vous attend.</p>
+          </div>
+        </section>
+        <ApplyNowSection />
+        </div>
       </div>
     );
   }

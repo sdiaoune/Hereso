@@ -21,6 +21,7 @@ import image12 from '../images/hereso7.jpg';
 import image13 from '../images/hereso8.jpg';
 import image14 from '../images/hereso9.jpg';
 import image15 from '../images/hereso10.jpg';
+import ApplyNowSection from '../Components/ApplyNowSection';
 
 
 
@@ -28,9 +29,16 @@ function Gallery() {
     return (
       <div className="App">
         <section className="App-section">
+          <br/>
+          <br/>
           <div className='div-description'>
-          <h1>
+            {/* English */}
+          {/* <h1>
             Gallery
+          </h1> */}
+          {/* French */}
+          <h1>
+          Galerie
           </h1>
           <div>
             <div className='image'><img src={image1} /></div>
@@ -51,16 +59,7 @@ function Gallery() {
           </div>
           </div>
         </section>
-        <GridLayout />
-        <section className='App-section'>
-          <div className='div-description'>
-          <h2>Your dream residence is within reach</h2>
-          <div>
-          <Button>Book a Tour</Button>
-          <a href="/applynow"><Button className='div-button'>Apply Now</Button></a>
-          </div>
-          </div>
-        </section>
+        <ApplyNowSection/>
       </div>
     );
   }

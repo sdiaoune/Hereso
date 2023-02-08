@@ -10,6 +10,7 @@ import NavBar from './Components/NavBar';
 
 import videoFile from './assets/Hereso2.webm';
 import GridLayout from './Components/GridLayout';
+import ApplyNowSection from './Components/ApplyNowSection';
 
 function App() {
 
@@ -60,33 +61,13 @@ function App() {
         <p>
         Entrez dans le royaume de l'indulgence et découvrez le summum de la vie de luxe au complexe d'appartements Hereso.
         </p>
-        <div>
+        {/* <div>
           <Button>Voir les plans d'étage</Button>
           <Button className='div-button'>Voir les commodités</Button>
-        </div>
+        </div> */}
         </div>
         </section>
-        <GridLayout/>
-        {/* English */}
-        {/* <section className='App-section'>
-          <div className='div-description'>
-          <h2>Your dream residence is within reach</h2>
-          <div>
-          <Button>Book a Tour</Button>
-          <a href="/applynow"><Button className='div-button'>Apply Now</Button></a>
-          </div>
-          </div>
-        </section> */}
-        {/* French */}
-        <section className='App-section'>
-          <div className='div-description'>
-          <h2>Votre résidence de rêve est à portée de main</h2>
-          <div>
-          <Button>Réserver une visite</Button>
-          <a href="/applynow"><Button className='div-button'>Appliquer maintenant</Button></a>
-          </div>
-          </div>
-        </section>
+        <ApplyNowSection/>
     </div>
   );
 }
